@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/cell_phones">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.og.prj.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/cell_phones"
+        android:name="com.og.prj.ui.cellphone.CellPhoneFragment"
+        android:label="@string/cell_phones_section"
+        tools:layout="@layout/cell_phone_fragment" />
+
+    <fragment
+        android:id="@+id/computers"
+        android:name="com.og.prj.ui.computer.ComputerFragment"
+        android:label="@string/computers_section"
+        tools:layout="@layout/computer_fragment" />
+
+    <fragment
+        android:id="@+id/musical_instruments"
+        android:name="com.og.prj.ui.musicalinstruments.MusicalInstrumentsFragment"
+        android:label="@string/musical_instruments_section"
+        tools:layout="@layout/musical_instruments_fragment" />
+
+    <fragment
+        android:id="@+id/personal_care"
+        android:name="com.og.prj.ui.personalcare.PersonalCareFragment"
+        android:label="@string/personal_care_section"
+        tools:layout="@layout/personal_care_fragment" />
+
+    <fragment
+        android:id="@+id/contact_us"
+        android:name="com.og.prj.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/content_contact_us" />
+
+    <fragment
+        android:id="@+id/show_map"
+        android:name="com.og.prj.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_store_location"/>
+</navigation>

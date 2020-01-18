@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <Button
+        android:id="@+id/cellphone"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/cell_phone_button"
+        app:layout_constraintBottom_toTopOf="@+id/computer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/computer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/computer_button"
+        app:layout_constraintBottom_toTopOf="@+id/musical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cellphone" />
+
+    <Button
+        android:id="@+id/musical"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/musical_instruments_button"
+        app:layout_constraintBottom_toTopOf="@+id/personalcare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computer" />
+
+    <Button
+        android:id="@+id/personalcare"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_care_button"
+        app:layout_constraintBottom_toTopOf="@+id/storelocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musical" />
+
+    <Button
+        android:id="@+id/storelocation"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/store_location_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personalcare" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

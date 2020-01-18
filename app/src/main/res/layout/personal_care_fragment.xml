@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000000"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview41"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:background="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="400dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/braun" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="400dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/braun2" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="400dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/braun" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Braun Shaving kit"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview42"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:background="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="400dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/oral_b" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="400dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/oral_b2" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="400dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/oral_b3" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oral-B Tootbrush"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview43"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:background="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="400dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/head_shoulders" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="400dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/head_shoulders2" />
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Head&amp;Shoulders Shampoo"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

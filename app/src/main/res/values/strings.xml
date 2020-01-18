@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Store</string>
+    <string name="login">LOGIN</string>
+    <string name="submit_Button">SUBMIT</string>
+    <string name="title_activity_navigation_draw">NavigationDraw</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My Store</string>
+    <string name="nav_header_subtitle">store@mystore.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="cell_phones_section">Cell Phones</string>
+    <string name="computers_section">Computers</string>
+    <string name="musical_instruments_section">MUSICAL INSTRUMENTS</string>
+    <string name="personal_care_section">Personal Care</string>
+    <string name="contact_us_section">Contact Us</string>
+    <string name="store_location_section">Store Location</string>
+    <string name="title_activity_store_location">Map</string>
+    <string name="cell_phone_button">Cell Phones</string>
+    <string name="computer_button">Computers</string>
+    <string name="musical_instruments_button">Musical Instruments</string>
+    <string name="personal_care_button">Personal Care</string>
+    <string name="store_location_button">STORE LOCATION</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="register_button">REGISTER</string>
+</resources>
