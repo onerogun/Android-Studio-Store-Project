@@ -36,6 +36,10 @@
                 android:id="@+id/show_map"
                 android:icon="@drawable/ic_menu_send"
                 android:title="@string/store_location_section" />
+            <item
+                android:id="@+id/get_json"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Get Json" />
         </menu>
     </item>
 

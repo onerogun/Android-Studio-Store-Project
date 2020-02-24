@@ -46,4 +46,10 @@
         android:name="com.og.prj.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/activity_store_location"/>
+
+    <fragment
+        android:id="@+id/get_json"
+        android:name="com.og.prj.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_read_rest" />
 </navigation>

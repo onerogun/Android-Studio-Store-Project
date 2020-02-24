@@ -24,6 +24,7 @@ import com.og.prj.ui.cellphone.CellPhoneFragment;
 import com.og.prj.ui.contact.ContactUs;
 import com.og.prj.ui.home.HomeFragment;
 import com.og.prj.ui.nav.StoreLocation;
+import com.og.prj.ui.readrest.ReadRest;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -61,7 +62,7 @@ public class NavigationDraw extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(R.id.nav_home,
                 R.id.cell_phones, R.id.computers, R.id.musical_instruments,
-                R.id.personal_care, R.id.contact_us, R.id.show_map)
+                R.id.personal_care, R.id.contact_us, R.id.show_map, R.id.get_json)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -80,6 +81,9 @@ public class NavigationDraw extends AppCompatActivity {
                             startActivity(intent);
                         } else if(destination.getId() == R.id.nav_home){
                             toolbar.setTitle("Home");
+                        } else if(destination.getId() == R.id.get_json) {
+                            Intent intent = new Intent(NavigationDraw.this, ReadRest.class);
+                            startActivity(intent);
                         }
                     }
                 }
